@@ -1,0 +1,6 @@
+## some commands to copy ##
+
+source /opt/intel/openvino_2021/bin/setupvars.sh
+
+python3 ~/qmh/openvino_2021/deployment_tools/open_model_zoo/demos/object_detection_demo/python/object_detection_demo.py -i 'http://pi:raspberry@192.168.12.150:8090/stream.mjpg' -m /home/ubuntu/qmh/models/ir/yolov3-df2_15000.xml -at yolo
+
